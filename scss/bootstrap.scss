@@ -1,8 +1,8 @@
-$primary: #fe6b2a;
-$secondary: #35353a;
+$primary: #064273;
+$secondary: #76b6c4;
 $dark: #000;
-$body-bg: #0c0c0e;
-$body-color: #fff;
+$body-bg: #fff;
+$body-color: #000;
 
 
 // Navbar
@@ -42,5 +42,7 @@ $btn-padding-x: $button-padding-x;
 $btn-padding-x-lg: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
 $navbar-toggler-border-radius: 5px;
+
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';

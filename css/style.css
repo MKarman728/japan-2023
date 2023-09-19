@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.main {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home_1.jpg") center center no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+body.info {
+  background: #fff;
+}
+
+.hero {
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: yellow !important;
+  font-weight: bold !important;
+  font-size: large;
+}
+
+.border-round {
+  border-radius: 5px !important;
+}
+
+@media (max-width: 700px) {
+  body.main {
+    background-size: 700px;
+  }
+  .suica-card {
+    width: 150px !important;
+    margin: 1rem;
+  }
+}
