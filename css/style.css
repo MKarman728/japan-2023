@@ -10,10 +10,29 @@ body.main {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home_1.jpg") center center no-repeat;
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 body.info {
   background: #fff;
+}
+
+.password {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.password-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
 .hero {
