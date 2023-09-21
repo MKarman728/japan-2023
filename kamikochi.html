@@ -88,7 +88,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="row gap-3 justify-content-center">
+                <div class="row justify-content-center">
                     <div class="col-lg-4">
                         <div class="card text-dark px-0 mx-auto" style="width: 18rem;" type="button"
                             data-bs-toggle="modal" data-bs-target="#kobayashi">
@@ -113,6 +113,22 @@
                                 <h5 class="card-title">Kamikochi Restaurant</h5>
                                 <p class="card-text">Beautiful landscape, large selection, and unlimited supply of green
                                     tea
+                                </p>
+                                <button type="button" class="btn btn-primary d-block mx-auto" data-bs-toggle="modal"
+                                    data-bs-target="#kamikochi-restuarant">
+                                    More-Info
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-dark px-0 mx-auto" style="width: 18rem;" type="button"
+                            data-bs-toggle="modal" data-bs-target="#shiduka">
+                            <img src="img/shiduka-1.jpeg" class="card-img-top rounded-top-2 img-fluid"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Shiduka Restaurant - Matsomoto</h5>
+                                <p class="card-text">Close to striking castle. Focuses on traditional meals based seasonal ingredients in the area. Menu changes weekly. 
                                 </p>
                                 <button type="button" class="btn btn-primary d-block mx-auto" data-bs-toggle="modal"
                                     data-bs-target="#kamikochi-restuarant">
@@ -489,6 +505,59 @@
                     <p>
                         Open from 6am to 2:30pm. Known for great views, excellent selection of foods, and convenience.
                         Popular dishes include curry, soba noodles, and katsu.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary d-block mx-auto"
+                        data-bs-dismiss="modal">Close</button>
+                    <a href="https://maps.app.goo.gl/EJzPdqkSdgKGFnBw6" class="btn btn-primary d-block mx-auto"
+                        target="_blank">Directions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shiduka Restaurant -->
+    <div class="modal fade" id="shiduka" tabindex="-1" aria-labelledby="shiduka-restaurant"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="shiduka-header">Shiduka Restuarant</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="shiduka-carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/shiduka-1.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/shiduka-2.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/shiduka-3.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/shiduka-4.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12872.442299225297!2d137.9724452!3d36.2368078!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d0e90350d5def%3A0xff6a9f7445093253!2sShiduka!5e0!3m2!1sen!2sus!4v1695270496680!5m2!1sen!2sus" class="img-fluid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#shiduka-carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#shiduka-carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        Open from 12pm to 10:00pm. Old-school izakaya with wood beams & traditional decor, cooking Japanese staples & set meals.
                     </p>
                 </div>
                 <div class="modal-footer">
