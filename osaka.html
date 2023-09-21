@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon-32x32.png">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/favicon-32x32.png">
     <script src="js/bootstrap.bundle.min.js" defer></script>
     <script src="js/lightbox-plus-jquery.js" defer></script>
     <script src="js/script.js" defer></script>
     <title>Japan Trip October 2023</title>
 </head>
 
-<body class="main">
-    <nav class="navbar navbar-expand-lg sticky-top bg-primary navbar-dark" style="display: none" id="navbar">
+<body class="info">
+    <nav class="navbar navbar-expand-lg sticky-top bg-primary navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <i class="fa-solid fa-earth-asia"></i>
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-light active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="tokyo_1.html">Tokyo (1st)</a>
@@ -40,10 +40,10 @@
                         <a class="nav-link text-light" href="kanazawa.html">Kanazawa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="kyoto.html">Kyoto</a>
+                        <a class="nav-link text-light" href="kanazawa.html">Kyoto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="osaka.html">Osaka</a>
+                        <a class="nav-link text-light active" href="osaka.html">Osaka</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="tokyo_2.html">Tokyo (2nd)</a>
@@ -58,20 +58,35 @@
             </div>
         </div>
     </nav>
-    <div class="password" id="password-container">
-        <form class="password-form">
-            <div class="mb-3">
-                <label for="password" class="form-label text-light fw-bold fs-4">Enter Password</label>
-                <input type="password" class="form-control" id="password" aria-describedby="password"
-                    placeholder="password">
+
+    <!-- Header -->
+    <div class="container my-3">
+        <div class="row">
+            <div class="offset-lg-3 col-lg-6 p-3 offset-none">
+                <h1 class="text-center fw-bold">Osaka</h1>
             </div>
-            <button type="submit" class="btn btn-primary" id="password-submit">Submit</button>
-        </form>
-    </div>
-    <div class="container hero">
-        <div class="offset-lg-3 col-lg-6">
-            <h1 class="fw-bold ">Japan 2023</h1>
         </div>
+
+        <!-- Kamikochi to Takayama -->
+        <div class="container shadow py-3 rounded-3 mb-4">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/takayama-3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-8">
+                    <p class="fw-bold">
+                        <i class="fa-solid fa-location-pin" style="color: #800020"></i> Kamikochi to Takayama
+                    </p>
+                    <p>
+                        Takayama (高山) is a city in the mountainous Hida region of Gifu Prefecture. To differentiate it
+                        from other places named Takayama, the city is also commonly referred to as Hida-Takayama.
+                        Takayama retains a traditional touch like few other Japanese cities, especially in its
+                        beautifully preserved old town. I
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </body>
