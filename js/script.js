@@ -1,5 +1,6 @@
 // Set password with pw variable
 const pw = 'ramen';
+console.log(pw);
 const passwordInput = document.getElementById('password');
 const passwordContainer = document.getElementById('password-container');
 const navbar = document.getElementById('navbar');
